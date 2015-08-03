@@ -1,0 +1,24 @@
+{
+  "name": "Hunger Strike",
+  "description": "Hide your Faebook feed",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" : {
+    "default_icon": {
+      "19": "icon-19.png",
+      "38": "icon-38.png"
+    },
+    "default_title": "Hide Facebook feed"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+  "manifest_version": 2
+}
